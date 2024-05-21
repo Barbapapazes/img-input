@@ -9,7 +9,5 @@ input.addEventListener('change', (event) => {
   const fileSrc = URL.createObjectURL(file)
   img.src = fileSrc
 
-  // Ne pas oublier le revoke
-
   // https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded
 })
